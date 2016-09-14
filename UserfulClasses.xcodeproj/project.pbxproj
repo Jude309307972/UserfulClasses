@@ -13,6 +13,7 @@
 		852140DA1D88FAC20021EC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852140D81D88FAC20021EC3D /* Main.storyboard */; };
 		852140DC1D88FAC20021EC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852140DB1D88FAC20021EC3D /* Assets.xcassets */; };
 		852140DF1D88FAC20021EC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852140DD1D88FAC20021EC3D /* LaunchScreen.storyboard */; };
+		852140EA1D88FB0C0021EC3D /* UIImage+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 852140E91D88FB0C0021EC3D /* UIImage+JDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		852140DB1D88FAC20021EC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852140DE1D88FAC20021EC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852140E01D88FAC20021EC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852140E81D88FB0C0021EC3D /* UIImage+JDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JDExtension.h"; sourceTree = "<group>"; };
+		852140E91D88FB0C0021EC3D /* UIImage+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		852140CE1D88FAC20021EC3D /* UserfulClasses */ = {
 			isa = PBXGroup;
 			children = (
+				852140E71D88FAF80021EC3D /* Views */,
+				852140E61D88FAEE0021EC3D /* Category */,
 				852140D21D88FAC20021EC3D /* AppDelegate.h */,
 				852140D31D88FAC20021EC3D /* AppDelegate.m */,
 				852140D51D88FAC20021EC3D /* ViewController.h */,
@@ -77,6 +82,22 @@
 				852140D01D88FAC20021EC3D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		852140E61D88FAEE0021EC3D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				852140E81D88FB0C0021EC3D /* UIImage+JDExtension.h */,
+				852140E91D88FB0C0021EC3D /* UIImage+JDExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		852140E71D88FAF80021EC3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +173,7 @@
 				852140D71D88FAC20021EC3D /* ViewController.m in Sources */,
 				852140D41D88FAC20021EC3D /* AppDelegate.m in Sources */,
 				852140D11D88FAC20021EC3D /* main.m in Sources */,
+				852140EA1D88FB0C0021EC3D /* UIImage+JDExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
