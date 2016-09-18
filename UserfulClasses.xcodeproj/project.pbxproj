@@ -14,6 +14,8 @@
 		852140DC1D88FAC20021EC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852140DB1D88FAC20021EC3D /* Assets.xcassets */; };
 		852140DF1D88FAC20021EC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852140DD1D88FAC20021EC3D /* LaunchScreen.storyboard */; };
 		852140EA1D88FB0C0021EC3D /* UIImage+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 852140E91D88FB0C0021EC3D /* UIImage+JDExtension.m */; };
+		85589EC01D8E273800606921 /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85589EBF1D8E273800606921 /* UIView+JDExtension.m */; };
+		85589EC31D8E2E8200606921 /* JDVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85589EC21D8E2E8200606921 /* JDVerticalButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		852140E01D88FAC20021EC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		852140E81D88FB0C0021EC3D /* UIImage+JDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JDExtension.h"; sourceTree = "<group>"; };
 		852140E91D88FB0C0021EC3D /* UIImage+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JDExtension.m"; sourceTree = "<group>"; };
+		85589EBE1D8E273800606921 /* UIView+JDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDExtension.h"; sourceTree = "<group>"; };
+		85589EBF1D8E273800606921 /* UIView+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDExtension.m"; sourceTree = "<group>"; };
+		85589EC11D8E2E8200606921 /* JDVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDVerticalButton.h; sourceTree = "<group>"; };
+		85589EC21D8E2E8200606921 /* JDVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDVerticalButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,8 @@
 			children = (
 				852140E81D88FB0C0021EC3D /* UIImage+JDExtension.h */,
 				852140E91D88FB0C0021EC3D /* UIImage+JDExtension.m */,
+				85589EBE1D8E273800606921 /* UIView+JDExtension.h */,
+				85589EBF1D8E273800606921 /* UIView+JDExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -96,6 +104,8 @@
 		852140E71D88FAF80021EC3D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				85589EC11D8E2E8200606921 /* JDVerticalButton.h */,
+				85589EC21D8E2E8200606921 /* JDVerticalButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85589EC01D8E273800606921 /* UIView+JDExtension.m in Sources */,
 				852140D71D88FAC20021EC3D /* ViewController.m in Sources */,
 				852140D41D88FAC20021EC3D /* AppDelegate.m in Sources */,
+				85589EC31D8E2E8200606921 /* JDVerticalButton.m in Sources */,
 				852140D11D88FAC20021EC3D /* main.m in Sources */,
 				852140EA1D88FB0C0021EC3D /* UIImage+JDExtension.m in Sources */,
 			);
@@ -324,6 +336,7 @@
 				852140E51D88FAC20021EC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
