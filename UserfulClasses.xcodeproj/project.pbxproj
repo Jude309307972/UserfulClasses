@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8519731F1D8F8C8E00693401 /* JDPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519731E1D8F8C8E00693401 /* JDPlaceholderTextView.m */; };
 		852140D11D88FAC20021EC3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 852140D01D88FAC20021EC3D /* main.m */; };
 		852140D41D88FAC20021EC3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 852140D31D88FAC20021EC3D /* AppDelegate.m */; };
 		852140D71D88FAC20021EC3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852140D61D88FAC20021EC3D /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8519731D1D8F8C8E00693401 /* JDPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPlaceholderTextView.h; sourceTree = "<group>"; };
+		8519731E1D8F8C8E00693401 /* JDPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPlaceholderTextView.m; sourceTree = "<group>"; };
 		852140CC1D88FAC20021EC3D /* UserfulClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserfulClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		852140D01D88FAC20021EC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		852140D21D88FAC20021EC3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 			children = (
 				85589EC11D8E2E8200606921 /* JDVerticalButton.h */,
 				85589EC21D8E2E8200606921 /* JDVerticalButton.m */,
+				8519731D1D8F8C8E00693401 /* JDPlaceholderTextView.h */,
+				8519731E1D8F8C8E00693401 /* JDPlaceholderTextView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			files = (
 				85589EC01D8E273800606921 /* UIView+JDExtension.m in Sources */,
 				852140D71D88FAC20021EC3D /* ViewController.m in Sources */,
+				8519731F1D8F8C8E00693401 /* JDPlaceholderTextView.m in Sources */,
 				852140D41D88FAC20021EC3D /* AppDelegate.m in Sources */,
 				85589EC31D8E2E8200606921 /* JDVerticalButton.m in Sources */,
 				852140D11D88FAC20021EC3D /* main.m in Sources */,

@@ -20,4 +20,10 @@
  * 判断一个控件是否真正显示在主窗口
  */
 - (BOOL)isShowingOnKeyWindow;
+
+/**
+ * 从xib中加载view
+ */
+- (instancetype)viewFormXib;
+
 @end
