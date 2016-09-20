@@ -51,10 +51,11 @@
     self.placeholderLabel.hidden = self.hasText; // 监听texview,有内容输入则隐藏占位label
 }
 
-- (void)updatePlaceholderSize
+- (void)layoutSubviews
 {
-    CGSize maxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 2 * self.placeholderLabel.x, MAXFLOAT);
-    self.placeholderLabel.size = [self.placeholder boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : self.font} context:nil].size;
+    [super layoutSubviews];
+    self.placeholderLabel.width = self.width - self.placeholderLabel.x  * 2;
+    [self.placeholderLabel sizeToFit];
 }
 
 #pragma mark - setter
@@ -63,7 +64,7 @@
 {
     _placeholder = placeholder;
     self.placeholderLabel.text = placeholder;
-    [self updatePlaceholderSize];
+    [self setNeedsLayout];
 }
 
 - (void)setPlaceholderColor:(UIColor *)placeholderColor
@@ -76,21 +77,20 @@
 {
     [super setFont:font];
     self.placeholderLabel.font = font;
-    [self updatePlaceholderSize];
+    [self setNeedsLayout];
 }
 
 - (void)setText:(NSString *)text
 {
     [super setText:text];
     
-    [self setNeedsDisplay];
+    [self textViewDidChange];
 }
 
 - (void)setAttributedText:(NSAttributedString *)attributedText
 {
     [super setAttributedText:attributedText];
-    
-    [self setNeedsDisplay];
+    [self textViewDidChange];
 }
 
 @end
